@@ -19,25 +19,27 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="252dp"
         android:layout_margin="@android:dimen/app_icon_size"
         android:adjustViewBounds="false"
         android:contentDescription="@string/picture"
         tools:srcCompat="@tools:sample/avatars" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@android:dimen/app_icon_size"
-        android:contentDescription="@string/text"
-        android:text="@string/textview" />
-
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="311dp"
         android:layout_height="wrap_content"
         android:layout_margin="@android:dimen/app_icon_size"
         android:text="@string/button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:contentDescription="@string/text"
+        android:text="@string/textview"
+        tools:text="@tools:sample/full_names" />
 
 </LinearLayout>
