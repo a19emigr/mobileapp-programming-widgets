@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Widgets</string>
+    <string name="picture">picture</string>
+    <string name="text">text</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
 </resources>
